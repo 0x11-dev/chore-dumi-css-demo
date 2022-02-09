@@ -1,0 +1,15 @@
+{
+  "0 info pnpm:global": "Nothing to stop. No server is running for the store at /Users/levin/.pnpm-store/v3",
+  "1 debug pnpm:scope": {
+    "selected": 1
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+    "err": {
+      "name": "pnpm",
+      "message": "This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npm.taobao.org/\"}. The current configuration is {\"default\":\"http://r.npm.sankuai.com/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".",
+      "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+      "stack": "pnpm: This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npm.taobao.org/\"}. The current configuration is {\"default\":\"http://r.npm.sankuai.com/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".\n    at validateModules ([stdin]:90886:15)\n    at async Object.getContext [as default] ([stdin]:90758:28)\n    at async Object.mutateModules ([stdin]:113437:19)\n    at async Object.handler [as default] ([stdin]:124047:35)\n    at async [stdin]:133736:20\n    at async run ([stdin]:133711:34)\n    at async runPnpm ([stdin]:133921:5)\n    at async [stdin]:133913:7"
+    }
+  }
+}
